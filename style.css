@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    height:50vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 50px;
+    width: 100%;
+    max-width: 410px;
+    background-color: teal;
+    border-radius: 5px;
+} 
+
+form h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input[type="text"],
+ [type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+label[for="name"],
+label[for="Animals"],
+label[for="reason"] {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 100%;
+    padding: 8px 10px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+textarea {
+    width: 100%;
+    padding: 25px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+#submit_btn {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: blue;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#submit_btn:hover {
+    color: blue;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+#submit_btn:hover {
+    transform: scale(1.1);
+}
