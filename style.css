@@ -20,7 +20,7 @@ form {
     width: 100%;
     max-width: 410px;
     background-color: teal;
-    border-radius: 5px;
+    border-radius: 10px;
 } 
 
 form h2 {
@@ -60,6 +60,7 @@ select {
     outline: none;
     font-size: 13px;
     font-weight: 500;
+    color: #00973c;
 }
 
 textarea {
